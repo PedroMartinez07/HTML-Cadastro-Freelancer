@@ -1,0 +1,112 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Helvetica, sans-serif;
+    color:#323232;
+    border:none;
+} 
+
+input, label{
+     display: block;
+     width: 100%;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+a{
+color:black;
+}
+ body{
+     padding: 25px;
+     padding-top: 5vh;
+     background-image: url("../ProjetoInter/imagensprojeto/dumbo.gif");
+     background-size:cover;
+     background-position-y:-100px;
+ }
+
+#container{
+    opacity: 0.9;
+    width:500px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 10px; 
+    padding: 25px;
+    background-color:white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.397);
+
+}
+
+
+#h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#box{
+    flex:1 1 100%;
+    position:relative;
+    text-align: center;
+}
+
+#box2{
+    flex: 1 1 45%;
+    position: relative;
+    text-align: center;
+    margin-right: 3.0%;
+
+}
+
+.spacing {
+    margin-right:2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+border-bottom: 2px solid #323232;
+padding:10px;
+font-size: .9rem;
+margin-bottom:40px ;
+
+}
+
+input:focus {
+    border-color: #6d4335;
+}
+
+input[type="submit"] {
+background-color: #6d4335;
+color:white;
+border:none;
+border-radius: 20px;
+height:40px;
+cursor:pointer;
+
+}
+
+
+
+#aceitar, #aceitarlabel{
+    display: inline-table;
+    width: auto; 
+    margin-right: 3px;
+}
+
+#thead{
+    padding:25px;
+}
+
